@@ -1,0 +1,12 @@
+#parasail {
+    max-width: 20%;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+header {
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto;
+}
