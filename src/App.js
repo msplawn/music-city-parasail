@@ -8,14 +8,7 @@ import BookingForm from './components/BookingForm/BookingForm';
 function App() {
   return (
     <div className="App">
-      {/* <div className="ui menu">
-        <a className="item">LOGO</a>
-        <a className="item">Menu</a>
-      </div> */}
-    <TopMenu />
-      {/* <header className="App-header">
-        Music City Parasail
-      </header> */}
+      <TopMenu />
       <LandingInfo />
       <BookingForm />
     </div>

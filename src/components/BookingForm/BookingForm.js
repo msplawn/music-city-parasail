@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Checkbox, Form } from 'semantic-ui-react'
 
+
 const BookingForm = () => (
   <Form>
     <Form.Field>

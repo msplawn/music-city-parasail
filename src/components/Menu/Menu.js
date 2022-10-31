@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Menu, Icon } from 'semantic-ui-react';
 import './menu.css'
 
+
 export default class TopMenu extends Component {
   state = {}
 

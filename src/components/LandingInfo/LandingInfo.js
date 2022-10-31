@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Header, Icon, Segment } from 'semantic-ui-react'
 
+
 const LandingInfo = () => (
   <Segment placeholder>
     <Header icon>
