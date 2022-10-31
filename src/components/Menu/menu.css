@@ -1,0 +1,8 @@
+.menu {
+    /* flex: auto; */
+    justify-content: space-between;
+}
+
+.menu-item {
+    text-align: center;
+}
