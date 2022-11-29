@@ -1,9 +1,11 @@
-import React from 'react'
-import { Segment, Button, Checkbox, Form } from 'semantic-ui-react'
+import React from 'react';
+import { Segment, Button, Checkbox, Form } from 'semantic-ui-react';
+import './booking-form.css';
+
 
 
 const BookingForm = () => (
-    <Segment placeholder>
+    <Segment id='booking-main' placeholder>
         <Form>
             <Form.Field>
                 <label>First Name</label>
