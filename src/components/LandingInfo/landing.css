@@ -4,6 +4,20 @@
     color: white;
 }
 
+#book-button {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
 #header {
     color: white;
+}
+
+#icon {
+    margin-top: 15px;
+}
+
+#title {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
