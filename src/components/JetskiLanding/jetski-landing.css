@@ -4,9 +4,10 @@
     min-height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment:fixed;
     font-family: Montserrat;
     font-weight: 500;
-    text-shadow: 3px 3px 3px #353535;
+    text-shadow: 2px 2px 4px #010101;
     color: white;
     padding: 14px;
     margin-bottom: 14px;

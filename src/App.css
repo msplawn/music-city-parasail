@@ -23,7 +23,27 @@ body {
   background-color: rgba(0, 0, 0, 0.358);
 } */
 
+/* .segment, #segment {
+  background-attachment:fixed;
+  min-width: 100vw;
+  min-height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px #010101;
+  color: white;
+  padding: 14px;
+  margin-bottom:14px;
+  border-bottom: 8px solid rgb(49, 135, 168);    
+} */
+
 Button {
+  font-family: Montserrat !important;
+  font-weight: 500 !important;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #353535 !important;
   box-shadow: 2px 2px 4px rgb(65, 65, 65) !important;
 }
 

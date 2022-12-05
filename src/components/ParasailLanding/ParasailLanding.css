@@ -1,17 +1,18 @@
 #parasail-landing {
     background-image: url("./assets/pink-sky.jpg");
+    background-attachment:fixed;
     min-width: 100vw;
     min-height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     font-family: Montserrat;
     font-weight: 500;
-    text-shadow: 2px 2px 4px #353535;
+    text-shadow: 2px 2px 4px #010101;
     color: white;
     padding: 14px;
-    margin-bottom: 14px;
-    border-bottom: 8px solid rgb(49, 135, 168);
-    /* display: flex; */
+    margin-bottom:14px;
+    border-bottom: 8px solid rgb(49, 135, 168); 
 }
 
 #parasail-icon {
