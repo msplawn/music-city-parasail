@@ -4,7 +4,7 @@ import './jetski-landing.css';
 
 
 const JetskiLanding = () => (
-  <Segment id="jetski-landing" placeholder>
+  <div id="jetski-landing" placeholder>
     <Header id="header" icon>
       <Icon id='icon' name='pdf file outline' />
       <div id='title'>
@@ -12,11 +12,12 @@ const JetskiLanding = () => (
       </div>
     </Header>
     {/* <Segment > */}
-        Be Kenny Powers from Eastbound and Down! Pull yo titties out. You on a jetski who care
+    <div className='para'>
+      Be Kenny Powers from Eastbound and Down! Pull yo titties out. You on a jetski who care
+    </div>
     {/* </Segment> */}
     <Button id="book-button" primary>Book an experience!</Button>
-  </Segment>
+  </div>
 )
-
 
 export default JetskiLanding

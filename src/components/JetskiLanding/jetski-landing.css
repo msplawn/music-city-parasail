@@ -1,6 +1,16 @@
 #jetski-landing {
-    background-image: url("./assets/parasail-hero.png");
+    background-image: url("./assets/sunset-jetski.jpg");
+    min-width: 100vw;
+    min-height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-shadow: 3px 3px 3px #353535;
     color: white;
+    padding: 14px;
+    margin-bottom: 14px;
+    border-bottom: 8px solid rgb(49, 135, 168);    
 }
 
 #book-button {

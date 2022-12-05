@@ -1,8 +1,36 @@
 .menu {
-    /* flex: auto; */
+    height: 7vh;
+    padding: 10px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white !important;
+    margin-bottom: 14px;
+    border-bottom: 2px solid rgb(49, 135, 168);    
 }
 
 .menu-item {
-    text-align: center;
+    color: white;
+    padding-left: 12px;
+    border-left: solid 1px rgb(148, 148, 148);
+    height: 145%;
+
+}
+
+.item {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.mcps {
+    font-family: Montserrat;
+    font-weight: 500;
+    /* text-shadow: 2px 2px 4px rgb(252, 252, 252); */
+    height: 145%;
+    padding-right: 10px;
+    border-right: solid 1px rgb(148, 148, 148);
+    letter-spacing: 2px;
+
 }
