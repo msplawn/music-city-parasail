@@ -14,7 +14,7 @@ export default class TopMenu extends Component {
     return (
       <div className='menu'>
         <Menu.Item className='mcps'>
-          <text>Music City Parasail</text>
+          <text>MUSIC CITY PARASAIL</text>
         </Menu.Item>
 
         <Menu.Item

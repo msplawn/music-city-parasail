@@ -43,9 +43,16 @@ Button {
   font-family: Montserrat !important;
   font-weight: 500 !important;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 4px #353535 !important;
+  /* color: black !important; */
+  text-shadow: 1px 1px 3px #353535 !important;
   box-shadow: 2px 2px 4px rgb(65, 65, 65) !important;
+  /* background: linear-gradient(rgb(33, 92, 116), rgb(49, 135, 168)) !important; */
+  background: linear-gradient(45deg, #ffee00, #ff9102) !important;
+  border-radius: 0px !important;
 }
 
+label::before, input {
+  border-radius: 0px !important;
+}
 
 
