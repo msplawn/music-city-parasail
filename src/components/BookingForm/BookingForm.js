@@ -5,7 +5,7 @@ import './booking-form.css';
 
 
 const BookingForm = () => (
-    <Segment id='booking-main' placeholder>
+    <div id='booking-main' placeholder>
         <Form>
             <Form.Field>
                 <label>First Name</label>
@@ -24,9 +24,9 @@ const BookingForm = () => (
             <Form.Field>
                 <Checkbox label='I agree to the Terms and Conditions' />
             </Form.Field>
-            <Button type='submit'>Submit</Button>
+            <Button type='submit' className='submit'>Submit</Button>
         </Form>
-    </Segment>
+    </div>
 )
 
 export default BookingForm

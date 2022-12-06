@@ -12,17 +12,21 @@ export default class TopMenu extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu className='menu'>
+      <div className='menu'>
+        <Menu.Item className='mcps'>
+          <text>MUSIC CITY PARASAIL</text>
+        </Menu.Item>
+
         <Menu.Item
           className='menu-item'
           name='editorials'
           active={activeItem === 'editorials'}
           onClick={this.handleItemClick}
         >
-          <Icon  name='bars' active={ activeItem === 'bars' }/>
+          <Icon  name='bars' className='burger' active={ activeItem === 'bars' }/>
         </Menu.Item>
 
-        <Menu.Item
+        {/* <Menu.Item
           name='parasail'
           active={activeItem === 'parasail'}
           onClick={this.handleItemClick}
@@ -44,8 +48,8 @@ export default class TopMenu extends Component {
           onClick={this.handleItemClick}
         >
           About
-        </Menu.Item>
-      </Menu>
+        </Menu.Item> */}
+      </div>
     )
   }
 }

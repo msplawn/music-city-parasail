@@ -1,4 +1,23 @@
 #booking-main {
-    background-color: cadetblue;
+    padding: 14px;
+    background: linear-gradient(rgb(28, 80, 100), rgb(62, 170, 212));
+    font-family: Montserrat;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgb(65, 65, 65);
     color: white;
+}
+
+label {
+    /* font-family: Montserrat !important; */
+    font-weight: 500 !important;
+    color: white !important;
+}
+
+.submit {
+    /* background: linear-gradient(#ffee00, #ff9102) !important; */
+    /* border: 1px solid rgb(179, 179, 179) !important; */
+    font-family: Montserrat !important;
+    font-weight: 500 !important;
+    color: white !important;
+    /* text-shadow: 2px 2px 4px #353535 !important; */
 }
