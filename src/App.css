@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla:EDPT,EHLT@30..200,24&display=swap');
+
 
 .App {
   text-align: center;
@@ -46,8 +48,8 @@ Button {
   /* color: black !important; */
   text-shadow: 1px 1px 3px #353535 !important;
   box-shadow: 2px 2px 4px rgb(65, 65, 65) !important;
-  /* background: linear-gradient(rgb(33, 92, 116), rgb(49, 135, 168)) !important; */
-  background: linear-gradient(45deg, #ffee00, #ff9102) !important;
+  background: linear-gradient(45deg, rgb(28, 80, 100), rgb(62, 170, 212)) !important;
+  /* background: linear-gradient(45deg, #ffee00, #ff9102) !important; */
   border-radius: 0px !important;
 }
 

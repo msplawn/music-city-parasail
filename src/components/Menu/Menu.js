@@ -14,7 +14,10 @@ export default class TopMenu extends Component {
     return (
       <div className='menu'>
         <Menu.Item className='mcps'>
-          <text>MUSIC CITY PARASAIL</text>
+          <text>
+            <span>M</span><span>U</span><span>S</span><span>I</span><span>C</span> <span>C</span><span>I</span><span>T</span><span>Y</span> <span>P</span><span>A</span><span>R</span><span>A</span><span>S</span><span>A</span><span>I</span><span>L</span>
+
+          </text>
         </Menu.Item>
 
         <Menu.Item
