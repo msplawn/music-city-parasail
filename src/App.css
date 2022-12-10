@@ -53,6 +53,11 @@ Button {
   border-radius: 0px !important;
 }
 
+Button:hover {
+  background: linear-gradient(45deg, rgb(62, 170, 212), rgb(28, 80, 100)) !important;
+
+}
+
 label::before, input {
   border-radius: 0px !important;
 }

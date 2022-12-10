@@ -10,7 +10,7 @@
     text-shadow: 2px 2px 4px #010101;
     color: white;
     padding: 14px;
-    margin-bottom: 14px;
+    /* margin-bottom: 14px; */
     border-bottom: 8px solid rgb(49, 135, 168);    
 }
 
