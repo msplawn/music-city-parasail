@@ -1,17 +1,29 @@
-#bold {
-    display: flex;
+.words {
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px #010101;
-    text-align: center;
-    font-family: Montserrat;
-    font-weight: 1000;
-    font-size: large;
-    min-width: 100vw;
-    min-height: 20vh;
-    background-color: #3187a8 !important;
+    justify-content: space-between; */
+    text-align: left;
+    font-family: 'Montserrat';
+    /* background-color: #3187a8 !important; */
     /* margin-top: 20px; */
     /* margin-bottom: 20px; */
-    padding: 50px;
+    padding: 50px 50px 50px 30px;
+    border-bottom: 8px solid #3187a8;
+}
+
+#bold {
+    font-weight: 1000;
+    font-size: large;
+    /* min-width: 100vw; */
+    /* min-height: 20vh; */
+    color: rgb(62, 170, 212);
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}
+
+.para {
+    color: white;
+    font-family: 'Montserrat';
+    text-shadow: 2px 2px 4px #000000;
 }

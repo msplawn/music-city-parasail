@@ -15,6 +15,7 @@ function App() {
       <LandingInfo />
       <BoldText />
       <ParasailLanding />
+      <BoldText />
       <JetskiLanding />
       <BookingForm />
     </div>
