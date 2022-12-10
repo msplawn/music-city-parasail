@@ -27,19 +27,11 @@ label {
 }
 
 .footer-title {
-    font-family: 'Nabla';
-    font-variation-settings: "EDPT" 500;
-    /* animation: depth 1s ease-in-out alternate infinite;
-	position: relative;
-	display: inline-block; */
-	/* font-variation-settings: "EDPT" 30; */
-	font-palette: --Nabla;
-    letter-spacing: 3pt;
-}
-
-@font-palette-values --Nabla {
-	font-family: Nabla;
-	base-palette: 4;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3187a8;
+    width: 90%;
 }
 
 .title-bkgd {
