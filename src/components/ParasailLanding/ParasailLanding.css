@@ -20,8 +20,17 @@
     display: flex;
     justify-content: center !important;
     align-items: center !important;
+    /* fill: #ffffff !important; */
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(114deg) brightness(105%) contrast(102%) drop-shadow(2px 2px 4px #000000);
     margin-left: 40%;
     margin-right: 40%;
+    margin-top: 15px;
+    z-index: -1;
+    /* height: 12vh; */
+}
+
+#Layer_1 {
+    height: 200vh;
 }
 
 #header {
@@ -36,9 +45,9 @@
     margin-bottom: 15px;
 }
 
-#icon {
+/* #icon {
     margin-top: 15px;
-}
+} */
 
 #title {
     margin-top: 15px;
